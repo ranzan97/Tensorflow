@@ -7,6 +7,7 @@ This repository contains Jupyter notebooks demonstrating linear regression techn
 1. [Simple Linear Regression](Simple_Linear_Regression.ipynb)
 2. [Multiple Variable Linear Regression](Multi_Variable_Linear_Regression.ipynb)
 3. [Stock_Price_Prediction_LSTM_CNN_Tensorflow.ipynb](Stock_Price_Prediction_LSTM_CNN_Tensorflow.ipynb)
+4. [Simple_RNN_Tensorflow.ipynb](Simple_RNN_Tensorflow.ipynb)
 
 ## Notebooks Description
 
@@ -34,3 +35,8 @@ This notebook demonstrates time series forecasting for stock price prediction us
 - Build and train a hybrid CNN-LSTM model for sequence learning
 - Evaluate the model's performance using loss and metrics
 - Visualize actual vs. predicted stock prices over time
+
+### Simple_RNN_Tensorflow.ipynb
+
+- This project demonstrates a basic implementation of a Recurrent Neural Network (RNN) using TensorFlow for sequence prediction.
+- The model is trained on a simple sequence of numbers and can predict the next number in the sequence.
