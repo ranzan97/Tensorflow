@@ -1,6 +1,6 @@
 # TensorFlow Linear Regression Examples
 
-This repository contains Jupyter notebooks demonstrating linear regression techniques using TensorFlow. These examples are designed to help you understand and implement both simple and multiple variable linear regression models.
+This repository contains Jupyter notebooks demonstrating machine learning techniques using TensorFlow. These examples are designed to help you understand and implement various models, including linear regression, time series prediction, and sentiment analysis.
 
 ## Contents
 
@@ -8,6 +8,7 @@ This repository contains Jupyter notebooks demonstrating linear regression techn
 2. [Multiple Variable Linear Regression](Multi_Variable_Linear_Regression.ipynb)
 3. [Stock_Price_Prediction_LSTM_CNN_Tensorflow.ipynb](Stock_Price_Prediction_LSTM_CNN_Tensorflow.ipynb)
 4. [Simple_RNN_Tensorflow.ipynb](Simple_RNN_Tensorflow.ipynb)
+5. [Sentiment Analysis Model](sentiment_analysis_lstm_model.py)
 
 ## Notebooks Description
 
@@ -40,3 +41,13 @@ This notebook demonstrates time series forecasting for stock price prediction us
 
 - This project demonstrates a basic implementation of a Recurrent Neural Network (RNN) using TensorFlow for sequence prediction.
 - The model is trained on a simple sequence of numbers and can predict the next number in the sequence.
+
+### Sentiment Analysis Model.ipynb
+
+This script implements a basic sentiment analysis model using TensorFlow and Keras. It demonstrates:
+- Text tokenization and sequence preprocessing
+- Building a neural network with an embedding layer
+- Training a binary sentiment classification model
+- Predicting sentiment for new text inputs
+
+
