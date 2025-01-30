@@ -9,6 +9,7 @@ This repository contains Jupyter notebooks demonstrating machine learning techni
 3. [Stock_Price_Prediction_LSTM_CNN_Tensorflow.ipynb](Stock_Price_Prediction_LSTM_CNN_Tensorflow.ipynb)
 4. [Simple_RNN_Tensorflow.ipynb](Simple_RNN_Tensorflow.ipynb)
 5. [Sentiment Analysis Model](Sentiment_analysis_model.ipynb)
+6. [California_Housing_Regression](California_Housing_Regression.ipynb)
 
 
 ### Simple_Linear_Regression.ipynb
@@ -49,4 +50,11 @@ This script implements a basic sentiment analysis model using TensorFlow and Ker
 - Training a binary sentiment classification model
 - Predicting sentiment for new text inputs
 
+### California Housing Regession.ipynb
+
+This notebook showcases a regression model for predicting housing prices in California using TensorFlow and the California Housing dataset2. It covers:
+- Loading and preprocessing the California Housing dataset
+- Building a neural network model for regression
+- Training and evaluating the model on housing price prediction
+- Visualizing the results and model performance
 
