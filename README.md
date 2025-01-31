@@ -10,6 +10,7 @@ This repository contains Jupyter notebooks demonstrating machine learning techni
 4. [Simple_RNN_Tensorflow.ipynb](Simple_RNN_Tensorflow.ipynb)
 5. [Sentiment Analysis Model](Sentiment_analysis_model.ipynb)
 6. [California_Housing_Regression](California_Housing_Regression.ipynb)
+7. [Transformer_TimeSeries_Forecasting.ipynb](Transformer_TimeSeries_Forecasting.ipynb)
 
 
 ### Simple_Linear_Regression.ipynb
@@ -58,3 +59,9 @@ This notebook showcases a regression model for predicting housing prices in Cali
 - Training and evaluating the model on housing price prediction
 - Visualizing the results and model performance
 
+### Transformer_TimeSeries_Forecasting.ipynb
+The goal of this project is to predict future passenger counts based on historical data, showcasing how Transformers can be applied to sequential data like time series. The implementation includes:
+- Data preprocessing (normalization, sequence creation).
+- A custom Transformer architecture with multi-head attention and feed-forward layers.
+- Model training and evaluation using Mean Squared Error (MSE) and Mean Absolute Error (MAE).
+- Visualization of training progress and predictions.
