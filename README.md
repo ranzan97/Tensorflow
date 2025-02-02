@@ -5,13 +5,14 @@ This repository contains Jupyter notebooks demonstrating machine learning techni
 ## Contents
 
 1. [Simple Linear Regression](Simple_Linear_Regression.ipynb)
-2. [Multiple Variable Linear Regression](Multi_Variable_Linear_Regression.ipynb)
+2. [Multi Variable Linear Regression](Multi_Variable_Linear_Regression.ipynb)
 3. [Stock_Price_Prediction_LSTM_CNN_Tensorflow.ipynb](Stock_Price_Prediction_LSTM_CNN_Tensorflow.ipynb)
 4. [Simple_RNN_Tensorflow.ipynb](Simple_RNN_Tensorflow.ipynb)
 5. [Sentiment Analysis Model](Sentiment_analysis_model.ipynb)
 6. [California_Housing_Regression](California_Housing_Regression.ipynb)
 7. [Transformer_TimeSeries_Forecasting.ipynb](Transformer_TimeSeries_Forecasting.ipynb)
 8. [CIFAR10_CNN_Classification.ipynb](CIFAR10_CNN_Classification.ipynb)
+9. [Transfer_Learning_Oxford_Flowers.ipynb](Transfer_Learning_Oxford_Flowers.ipynb)
 
 
 ### Simple_Linear_Regression.ipynb
@@ -44,7 +45,7 @@ This notebook demonstrates time series forecasting for stock price prediction us
 - This project demonstrates a basic implementation of a Recurrent Neural Network (RNN) using TensorFlow for sequence prediction.
 - The model is trained on a simple sequence of numbers and can predict the next number in the sequence.
 
-### Sentiment Analysis Model.ipynb
+### Sentiment_Analysis_Model.ipynb
 
 This script implements a basic sentiment analysis model using TensorFlow and Keras. It demonstrates:
 - Text tokenization and sequence preprocessing
@@ -52,7 +53,7 @@ This script implements a basic sentiment analysis model using TensorFlow and Ker
 - Training a binary sentiment classification model
 - Predicting sentiment for new text inputs
 
-### California Housing Regession.ipynb
+### California_Housing_Regession.ipynb
 
 This notebook showcases a regression model for predicting housing prices in California using TensorFlow and the California Housing dataset2. It covers:
 - Loading and preprocessing the California Housing dataset
@@ -75,3 +76,10 @@ The goal of this project is to accurately classify images across 10 different ca
 - 3-layer convolutional neural network with max pooling
 - 10-epoch training with accuracy tracking
 - Performance visualization through training/validation accuracy plot
+
+### Transfer_Learning_Oxford_Flowers.ipynb
+
+- Utilizes the pre-trained EfficientNetB0 model for flower classification on the Oxford Flowers dataset.  
+- Incorporates L2 regularization and early stopping to improve model generalization and prevent overfitting.  
+- Unfreezes the base model during fine-tuning with a lower learning rate for optimal results.  
+-  Includes a function in `transfer_learning_oxford_flowers.py` to predict flower classes from new images with confidence scores.
